@@ -193,7 +193,7 @@ a h2:hover {
     border:  5px solid black;
     border-radius: 25px 25px 25px 25px;
     padding: 10px;
-    height: 3auto5px;
+    height: 70%;
     width: 50%;
     text-align: center;
 }
@@ -347,8 +347,8 @@ footer p {
     }
 
     .arSobre img {
-        height: 390px;
-        width: auto;
+        height:90%;
+        width: 20%;
     }
 
     .subheader {
