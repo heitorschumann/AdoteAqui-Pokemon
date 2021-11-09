@@ -327,7 +327,37 @@ footer p {
     }
 
     .disc {
-        height: 70px;
+        height: 90px;
+    }
+
+    .identity {
+        height: auto;
+    }
+
+    .arSobre, .arSobre p {
+        height: auto;
+        width:auto;
+        font-size: smaller;
+    }
+
+    .arSobre img {
+        height: 390px;
+        width: auto;
+    }
+
+    .subheader {
+        width: auto;
+        height: small;
+    }
+
+    .cttoMain {
+        width: auto;
+        height: auto;
+    }
+
+    .form {
+        width: auto;
+        height: auto;
     }
 
     footer {
