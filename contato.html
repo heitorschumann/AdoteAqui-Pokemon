@@ -9,7 +9,7 @@
         <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
         <title>ONG Adote Aqui</title>
     </head>
-
+    
     <body>
         <header>
             <div id="title">
@@ -24,13 +24,24 @@
         </header>
 
         <main>
-            <article class="arSobre">
-                <img src="./profcarvalho.png" alt="Imagem do Prof. Carvalho segurando um livro">
-                <p>Nós somos a Fundação Carvalho, uma instituição sem fins lucrativos que visa resgatar pokémons submetidos a maus tratos e/ou abandonados 
-                e achar para eles um novo lar onde possam ser tratados com amor, carinho, respeito e companheirismo. Eu me dedico há mais de 30 anos 
-                aos cuidados e estudos de pokémons, percebendo a dificuldade de alguns pokémons de se integrar à natureza, criei a Fundação Carvalho, para que nenhum pokémon 
-                sofra mais pela interação humana, preservando-os e a nós mesmos</p>
-            </article>
+            <div class="form">
+                <h3>Entre em contato sobre a adoção ou para tirar dúvidas!</h3>
+                <form>
+                    <label for="nomeSobrenome">Nome</label>
+                    <input type="text" id="nomeSobrenome" class="inputPkm" required placeholder="Nome Completo">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="inputPkm" required placeholder="(xx) xxxxx-xxxx">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="inputPkm" required placeholder="seuemail@dominio.com">
+
+                    <label for="ctto">Insira sua mensagem</label>
+                    <textarea cols="70" rows="10" id="ctto" class="inputPkm" required></textarea> 
+
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+            </div>
         </main>
 
         <footer>
