@@ -60,7 +60,7 @@ h1:hover {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: #ff0202;
     width: 50%;
     height: 100%;
@@ -163,9 +163,9 @@ a h2:hover {
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-    margin: 5px;
+    margin: 5px auto;
     font-family: 'Nova Flat';
-    width: 100px;
+    width: fit-content;
 }
 
 .card button {
@@ -308,6 +308,7 @@ footer {
     margin-right: auto;
     border: 3px solid black;
     border-radius: 25px 25px 0 0;
+    border-bottom: none;
     padding: 5px;
     display: block;
 }
